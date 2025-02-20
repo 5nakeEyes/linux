@@ -14,4 +14,4 @@ root         675  0.0  0.0   2784   216 ?        S    11:02   0:00 /init
    70  wc -l ~/katalog/processes.txt >> ~/selected.txt
    71  grep -n /bin ~/katalog/processes.txt >> selected.txt
    72  history
-   73  history | tail -n11 >> commands.txt
+   73  history | tail -n10 >> commands.txt
