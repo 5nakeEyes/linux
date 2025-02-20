@@ -7,29 +7,11 @@ root         675  0.0  0.0   2784   216 ?        S    11:02   0:00 /init
    63  mkdir katalog
    64  cd katalog
    65  touch processes.txt
-   66  ps aux
-   67  ps aux >> ~/katalog/processes.txt
-   68  cat processes.txt
-   69  cd ..
-   70  mkdir backup
-   71  cp ~/katalog/procrsses.txt backup/copy.txt
-   72  cp ~/katalog/processes.txt copy.txt
-   73  mv ~/copy.txt backup/copy.txt
-   74  cat backup/copy.txt
-   75  wc backup/copy.txt
-   76  wc -i backup/copy.txt
-   77  wc -l ~/katalog/processes.txt
-   78  wc -l ~/katalog/processes.txt >> ~/selected.txt
-   79  cat selected.txt
-   80  grep ~/katalog/processes.txt "/bin"
-   81  man grep
-   82  grep "\bin" ~/katalog/processes.txt
-   83  grep "\bin" ~/katalog/processes.txt >> selected.txt
-   84  cat selected.txt
-   85  history
-   86  man tail
-   87  tail -n22
-   88  tail -n22 history
-   89  history | tail -n22
-   90  history | tail -n28
-   91  history | tail -n29 >> commands.txt
+   66  ps aux >> ~/katalog/processes.txt
+   67  mkdir backup
+   68  cp ~/katalog/processes.txt copy.txt
+   69  mv ~/copy.txt backup/copy.txt
+   70  wc -l ~/katalog/processes.txt >> ~/selected.txt
+   71  grep "/bin" ~/katalog/processes.txt >> selected.txt
+   72  history
+   73  history | tail -n11 >> commands.txt
