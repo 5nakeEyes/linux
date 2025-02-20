@@ -1,0 +1,35 @@
+maciek@BLACKTITAN:~$ cat selected.txt commands.txt
+25 backup/copy.txt
+root           1  0.0  0.1  21636 12756 ?        Ss   10:47   0:00 /sbin/init
+root           2  0.0  0.0   2776  1924 ?        Sl   10:47   0:00 /init
+root         674  0.0  0.0   2784   212 ?        Ss   11:02   0:00 /init
+root         675  0.0  0.0   2784   216 ?        S    11:02   0:00 /init
+   63  mkdir katalog
+   64  cd katalog
+   65  touch processes.txt
+   66  ps aux
+   67  ps aux >> ~/katalog/processes.txt
+   68  cat processes.txt
+   69  cd ..
+   70  mkdir backup
+   71  cp ~/katalog/procrsses.txt backup/copy.txt
+   72  cp ~/katalog/processes.txt backup/copy.txt
+   73  cat backup/copy.txt
+   74  wc backup/copy.txt
+   75  wc -I backup/copy.txt
+   76  wc -i backup/copy.txt
+   77  wc -l backup/copy.txt
+   78  wc -l backup/copy.txt >> ~/selected.txt
+   79  cat selected.txt
+   80  grep ~/katalog/processes.txt "/bin"
+   81  man grep
+   82  grep "\bin" ~/katalog/processes.txt
+   83  grep "\bin" ~/katalog/processes.txt >> selected.txt
+   84  cat selected.txt
+   85  history
+   86  man tail
+   87  tail -n22
+   88  tail -n22 history
+   89  history | tail -n22
+   90  history | tail -n28
+   91  history | tail -n29 >> commands.txt
